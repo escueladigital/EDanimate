@@ -28,8 +28,8 @@ Puedes usar EDanimate con CSS o con Sass (recomendable).
 
 ### Con Sass
 * Instale EDanimate con el comando `npm install --save-dev ed-animate`
+* Establezca la variable `$EDanimatehelpers: false` para compilar solo lo necesario (debe hacerlo antes de importar EDanimate).
 * Importe `ed-animate/ed-animate` en su proyecto.
-* Establezca la variable `$EDanimatehelpers: false` para compilar solo lo necesario.
 * Los mixins disponibles son:
 ```language-scss
 fadeIn($time)

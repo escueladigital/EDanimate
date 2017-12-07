@@ -1,6 +1,6 @@
 {
-  "name": "EDanimate",
-  "version": "1.0.0",
+  "name": "ed-animate",
+  "version": "1.0.1",
   "description": "Simple library for CSS Animations. Inspired in animate.css",
   "main": "gulpfile.babel.js",
   "scripts": {
