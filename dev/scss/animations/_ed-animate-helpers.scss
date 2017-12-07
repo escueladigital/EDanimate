@@ -1,0 +1,56 @@
+@if $EDanimateHelpers == true {
+  // Bounce
+  .bouncetop, .bounce-top {
+    @include bounceTop(1s)
+  }
+  .bouncebottom, .bounce-bottom {
+    @include bounceBottom(1s)
+  }
+  .bounceleft, .bounce-left {
+    @include bounceLeft(1s)
+  }
+  .bounceright, .bounce-right {
+    @include bounceRight(1s)
+  }
+
+  // Extras
+  .animated-borders {
+    @include animatedBorders(.5s)
+  }
+
+  // Fade
+  .fadein, .fade-in {
+    @include fadeIn(1s)
+  }
+  .fadeout, .fade-out {
+    @include fadeOut(1s)
+  }
+
+  // Slide
+  .slideleft, .slide-left {
+    @include slideLeft(1s)
+  }
+  .slideright, .slide-right {
+    @include slideRight(1s)
+  }
+  .slidetop, .slide-top {
+    @include slideTop(1s)
+  }
+  .slidebottom, .slide-bottom {
+    @include slideBottom(1s)
+  }
+  .slidedown, .slide-down {
+    @include slideDown(1s, 1000px)
+  }
+  .slideup, .slide-up {
+    @include slideUp(1s, 1000px)
+  }
+
+  // Zoom
+  .zoomin, .zoom-in {
+    @include zoomIn(1s)
+  }
+  .zoomout, .zoom-out {
+    @include zoomOut(1s)
+  }
+}

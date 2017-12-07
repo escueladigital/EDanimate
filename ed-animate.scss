@@ -1,0 +1,11 @@
+// Define if helpers will be rendered
+$EDanimateHelpers: true !default;
+
+// EDanimate partials
+@import "dev/scss/animations/fade";
+@import "dev/scss/animations/slide";
+@import "dev/scss/animations/zoom";
+@import "dev/scss/animations/bounce";
+@import "dev/scss/animations/extras";
+@import "dev/scss/animations/examples";
+@import "dev/scss/animations/ed-animate-helpers";
