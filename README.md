@@ -8,7 +8,7 @@ Puedes usar EDanimate con CSS o con Sass (recomendable).
 
 ### Con CSS
 * Descarga el archivo `public/css/ed-animate.css` e inclúyelo en tu proyecto. Luego puedes agregar las siguientes clases a los elementos que deseas que se animen:
-```
+```language-css
 .fade-in
 .fade-out
 .slide-left
@@ -31,7 +31,7 @@ Puedes usar EDanimate con CSS o con Sass (recomendable).
 * Importe `ed-animate/ed-animate` en su proyecto.
 * Establezca la variable `$EDanimatehelpers: false` para compilar solo lo necesario.
 * Los mixins disponibles son:
-```
+```language-scss
 fadeIn($time)
 fadeOut($time)
 slideLeft($time)
